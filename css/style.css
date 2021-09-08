@@ -1,0 +1,170 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F0F0F6;
+}
+
+.row{
+    display:flex;
+    margin-left: -13px;
+    margin-right: -13px;
+}
+image{
+    max-width: 100%;
+}
+.col-1\/3, .col-2\/3{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.col-2\/3{
+    width: 66.6666%;
+}
+
+.col-1\/3{
+    width: 33.3333%;
+}
+
+.banner{
+    background: url('../images/bg.png');
+    height: 500px;
+    padding-top: 93px;
+    padding-bottom: 74px;
+}
+
+.banner h1{
+     font-size: 48px;
+     line-height: 123.6%;
+     color: #2B2B2B;
+     margin-bottom: 16px;
+}
+
+.banner h1 span{
+     color:#FFB400;
+}
+
+.descriptions{
+     font-style: normal;
+     font-weight: 900;
+     font-size: 16px;
+     line-height: 24px
+     text-transform: capitalize;
+     font-feature-settings: 'calt' off, 'kern' off;
+     color: #767676;
+     margin-bottom: 24px;
+     
+}
+
+.btn{
+     background: #FFB400;
+     padding: 18px 32px;
+     display: inline-flex;
+     text-decoration: none;
+     text-transform: uppercase;
+     color: #2b2b2b;
+     align-items: center;
+     font-weight: 500;
+     border-radius: 5px;
+     transition: all ease-in .3s;
+}
+
+.btn span{
+     margin-right: 8px;
+}
+
+.btn:hover{
+     background: #d87c14;
+}
+
+h2{
+     text-align: center;
+     font-family: Inter;
+     font-style: normal;
+      font-weight: bold;
+     font-size: 32px;
+     line-height: 123.6%;
+/* identical to box height, or 40px */
+     text-transform: capitalize;
+
+/* Black */
+     color: #2B2B2B;
+}
+
+p{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'calt' off, 'kern' off;
+    
+    /* Paragraph Font */
+    color: #767676;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 50px;
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.box{
+    background-color: white;
+    width: 310px;
+    height: 225px;
+    margin-bottom: 20px;
+}
+
+.box img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 68px;
+     height: 68px;
+     padding-top: 28px;
+     padding-bottom: 26px;
+}
+
+.box h3{
+     text-align: center;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 50%;
+    /* or 22px */
+     text-transform: capitalize;
+    
+    /* Black */
+     color: #2B2B2B;
+    
+}
+
+.box p{
+     text-align: center;
+     font-family: Inter;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 15px;
+     line-height: 24px;
+    /* identical to box height, or 160% */
+     text-align: center;
+     text-transform: capitalize;
+     font-feature-settings: 'calt' off, 'kern' off;
+    
+    /* Paragraph Font */
+     color: #767676;
+}
+
+.section3 box{
+     width: 310px;
+     height: 609px;
+}
